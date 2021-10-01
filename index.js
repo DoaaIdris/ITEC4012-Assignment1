@@ -20,6 +20,14 @@ app.get('/api/countries', (re, res) =>{
     res.send(countries);
 });
 
+app.get('/api/computers', (re, res) =>{
+    //return dummy data
+    const computers = ["Apple", "DELL", "Acer", "Microsoft", "Lenovo", "HP", "Asus", "Toshiba", "Sony", "Samsung"];
+
+    //sending a response should be in JSON
+    res.send(computers);
+});
+
 
 // running the express http server on the port we specified
 app.listen(port, () =>{
