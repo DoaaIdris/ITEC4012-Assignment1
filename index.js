@@ -34,7 +34,7 @@ app.get('/api/space', (re, res) =>{
                     "The sunset on Mars appears blue", "One day on Venus is longer than a year on Earth", 
                     "If 2 pieces of the same metal touch in space, they will bond and be permanently stuck together", 
                     "Space is completely silent", "A full NASA space suit costs $12,000,000", 
-                    "There is a volcano on Mars 3 times the size of Mount Everest"];
+                    "There is a volcano on Mars 3 times the size of Mount Everest"]
 
     //sending a response should be in JSON
     res.send(space);
